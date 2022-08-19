@@ -1,11 +1,11 @@
 version: 0.2
  phases:
    pre_build: 
-     - echo It is pre-building phase....
-     - npm install
+     commands:
+       - npm install
    build:
-     -echo It is build phase...
-     - npm run build
+     commands:
+       - npm run build
    artifacts:
      files:
        - '**/*'
