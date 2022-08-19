@@ -1,0 +1,13 @@
+version: 0.2
+ phases:
+   pre_build: 
+     - echo It is pre-building phase....
+     - npm install
+   build:
+     -echo It is build phase...
+     - npm run build
+   artifacts:
+     files:
+       - '**/*'
+     discard-paths: no
+     base-directory: build
