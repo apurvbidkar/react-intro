@@ -2,14 +2,14 @@ version: 0.0
 os: linux
 files:
   - source: /build
-  - destination: /var/www/html/
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
-    - location: /before.sh
+    - location: scripts/before.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: /after.sh
+    - location: scripts/after.sh
       timeout: 300
       runas: root
       
