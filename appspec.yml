@@ -1,8 +1,10 @@
 version: 0.0
 os: linux
 files:
-  - source: /build
-    destination: /var/www/html/
+  - source: /
+    destination: /app
+    overwrite: true
+    
 hooks:
   BeforeInstall:
     - location: scripts/before.sh
@@ -12,4 +14,7 @@ hooks:
     - location: scripts/after.sh
       timeout: 300
       runas: root
-      
+  ApplicationStart:
+    - location: scripts/start.sh
+      timeout: 300
+      runas: root
