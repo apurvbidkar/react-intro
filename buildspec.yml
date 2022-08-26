@@ -21,8 +21,4 @@ artifacts:
     - src/**/*
     - scripts/**/*
     - public/**/*
-    
-    
-    
-  discard-paths: no
-  base-directory: build
+
