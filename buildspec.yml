@@ -14,5 +14,12 @@ artifacts:
   files:
     - '**/*'
     - appspec.yml
+    - package.json
+    - src/**/*
+    - scripts/**/*
+    - public/**/*
+    
+    
+    
   discard-paths: no
   base-directory: build
