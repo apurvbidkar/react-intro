@@ -1,4 +1,4 @@
 #!/bin/bash
 sudo apt-get -y update
-cd /app
+cd /home/ubuntu/app
 sudo apt install nodejs
