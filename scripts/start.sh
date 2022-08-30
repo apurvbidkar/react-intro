@@ -1,3 +1,3 @@
 #!/bin/bash
 cd /home/ubuntu/app
-sudo npm i
+sudo node start
