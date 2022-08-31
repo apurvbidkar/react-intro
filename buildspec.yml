@@ -21,4 +21,5 @@ artifacts:
     - src/**/*
     - scripts/**/*
     - public/**/*
+    - build/**/*
 
