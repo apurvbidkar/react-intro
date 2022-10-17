@@ -5,19 +5,21 @@ function Main() {
     <main>
       <h1>This is Main Content</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ex eaque
-        rem sit ad quo ipsam optio nobis, autem porro inventore eum alias est,
-        ea maiores voluptatum suscipit pariatur et!
+        TAS provides the perfect balance of classroom education and education from around the world unlike any other International Schools in Pune. 
+        As one of the best lCSE School in Pune, TAS strives to create an environment conducive to positively impact kids and ensure their holistic 
+        and all-round development. Respect, acceptance and affirmative action – define our approach to the development of interpersonal skills in 
+        the students.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ex eaque
-        rem sit ad quo ipsam optio nobis, autem porro inventore eum alias est,
-        ea maiores voluptatum suscipit pariatur et!
+        Academic excellence, problem-solving skills, character-development and social skills are all a part of TAS’ well-designed ICSE curriculum 
+        (The Indian Certificate of Secondary Education) which not only offers quality education but also encourages students to be responsible individuals
+        with a high emotional as well as intelligence quotient.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ex eaque
-        rem sit ad quo ipsam optio nobis, autem porro inventore eum alias est,
-        ea maiores voluptatum suscipit pariatur et!
+      While there are many International Schools in Pune India, choosing TAS for your child will not only alter traditional boundaries but also equip them 
+      with modern skills to step into the future with capability and confidence. In a nutshell, as the top ICSE School, TAS will take your child beyond just 
+      four-wall-classrooms with its ‘Finland Education’ Pedagogy and transform him/her into a well-meaning and responsible citizen of the country.
+
       </p>
     </main>
   );
