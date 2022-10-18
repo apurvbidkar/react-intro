@@ -21,6 +21,5 @@ artifacts:
     - src/**/*
     - scripts/**/*
     - public/**/*
-    - "**/*"
-  base-directory: 'build' 
+    - build/**/*
 
