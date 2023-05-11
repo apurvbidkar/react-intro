@@ -15,7 +15,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-    "sonar": "sonar-scanner"
   },
   "eslintConfig": {
     "extends": "react-app"
