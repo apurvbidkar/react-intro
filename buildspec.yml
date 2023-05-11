@@ -1,0 +1,25 @@
+version: 0.2
+
+
+phases:
+  install:
+    runtime-version:
+      nodejs: 12
+
+  pre_build: 
+    commands:
+      - npm install
+  build:
+    commands:
+      - npm run build
+ 
+ 
+artifacts:
+  files:
+    - appspec.yml
+    - package.json
+    - src/**/*
+    - scripts/**/*
+    - public/**/*
+    - build/**/*
+
