@@ -1,0 +1,6 @@
+projectKey=react-intro
+serverUrl=http://54.172.248.44:9000
+serverVersion=10.0.0.68432
+dashboardUrl=http://54.172.248.44:9000/dashboard?id=react-intro
+ceTaskId=AYgLS7jZoGXMJube79ST
+ceTaskUrl=http://54.172.248.44:9000/api/ce/task?id=AYgLS7jZoGXMJube79ST
