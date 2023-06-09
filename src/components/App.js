@@ -5,6 +5,7 @@ import Main from './Main';
 import Footer from './Footer';
 
 function App() {
+  console.log(process.env)
   return (
     <Fragment>
       <Header />
