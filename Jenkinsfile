@@ -16,10 +16,10 @@ pipeline {
                 sh 'npm run build'
             }
         }
-        // stage(deploy){
-        //     steps{
-        //         sh 'cp -r build  /var/www/html/'
-        //     }
-        // }
+        stage(deploy){
+            steps{
+                sh 'sudo scp -r build  /var/www/html/'
+            }
+        }
     }
 }
