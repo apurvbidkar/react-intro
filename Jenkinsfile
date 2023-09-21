@@ -6,7 +6,7 @@ pipeline {
                 git credentialsId: 'github', url: 'https://github.com/apurvbidkar/react-intro.git'
             }
         }
-        stage('dependancy install'){
+      stage('dependancy install'){
             steps{
                 sh 'npm i'
             }
