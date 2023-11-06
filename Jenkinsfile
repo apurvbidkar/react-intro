@@ -16,12 +16,12 @@ pipeline {
                 sh 'npm i'
             }
         }
-        stage(build){
+        stage('build'){
             steps{
                 sh 'npm run build'
             }
         }
-        stage(deploy){
+        stage('deploy'){
             steps{
                 sh 'cp -r build/* /var/www/html'
             }
