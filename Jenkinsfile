@@ -25,6 +25,7 @@ pipeline {
             steps{
                 sh 'rm -rf /var/www/html/*'
             }
+        }
         stage('deploy'){
             steps{
                 sh 'cp -r build/* /var/www/html'
