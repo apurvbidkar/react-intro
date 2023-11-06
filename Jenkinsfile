@@ -6,6 +6,11 @@ pipeline {
                 git credentialsId: 'github', url: 'https://github.com/apurvbidkar/react-intro.git'
             }
         }
+        stage(delete build folder){
+            steps{
+                sh 'rm -rf build'
+            }
+        }
         stage('dependancy install'){
             steps{
                 sh 'npm i'
@@ -18,8 +23,8 @@ pipeline {
         }
         stage(deploy){
             steps{
-                sh 'sudo scp -r build  /var/www/html/'
+                sh 'cp -r build/* /var/www/html'
             }
-        }
+        }                
     }
 }
