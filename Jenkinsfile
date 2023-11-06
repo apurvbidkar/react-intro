@@ -6,7 +6,7 @@ pipeline {
                 git credentialsId: 'github', url: 'https://github.com/apurvbidkar/react-intro.git'
             }
         }
-        stage(delete build folder){
+        stage('delete build folder'){
             steps{
                 sh 'rm -rf build'
             }
